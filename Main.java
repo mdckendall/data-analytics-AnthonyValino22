@@ -22,7 +22,7 @@ class Main {
           System.out.println("US News - 100 Best Jobs!");
           break;
         case 3:
-          System.out.println("Top 10 Forbes In-Demand jobs!");
+          System.out.println("Top 10 Forbes In-Demand Jobs!");
           break;
         case 4:
           System.out.println("Current Students:");
