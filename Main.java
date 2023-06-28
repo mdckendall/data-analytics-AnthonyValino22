@@ -11,12 +11,12 @@ class Main {
     int userInput;
 
     do {
-      System.out.println(Menu());
+      System.out.print(Menu());
       userInput = scanner.nextInt();
 
       switch (userInput) {
         case 1:
-          System.out.println("$98,345 average salary in South Florida!\n");
+          System.out.println("$98,345 average salary in South Florida!");
           break;
         case 2:
           System.out.println("US News - 100 Best Jobs!");
@@ -35,7 +35,6 @@ class Main {
           fileScanner.close();
           break;
         case 5:
-          System.out.println("Quitting...");
           break;
         default:
           System.out.println("Please select a correct option.");
