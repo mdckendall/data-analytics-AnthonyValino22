@@ -25,7 +25,7 @@ class Main {
           System.out.println("Top 10 Forbes In-Demand jobs!");
           break;
         case 4:
-          System.out.println("Current students:");
+          System.out.println("Current Students:");
           FileReader fr = new FileReader("names.txt");
           Scanner fileScanner = new Scanner(fr);
           while (fileScanner.hasNextLine()) {
